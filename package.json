@@ -1,0 +1,28 @@
+{
+  "name": "express-custom-response",
+  "description": "Create custom response methods for express.js",
+  "version": "0.1.1",
+  "homepage": "https://github.com/fireridlle/express-custom-response",
+  "author": {
+    "name": "Sergii Zinkevych",
+    "email": "s.zinkevych@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fireridlle/express-custom-response.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fireridlle/express-custom-response/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/fireridlle/express-custom-response/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/express-custom-response",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "keywords": []
+}
