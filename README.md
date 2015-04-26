@@ -26,6 +26,21 @@ error: {
 	}
 ```
 
+**res.validation (message, extra)**
+- *string* **message**
+ - Message to show user why his request were forbidden
+- *mixed* **extra**
+ - Any data that have to be returned to user
+ 
+> return reponse with http code 405 and body:```
+error: {
+    error_message: 'Validation failed',
+	error_code: 405,
+	fields: {email: 'Email has to be uniq'},
+	error_extra: null or extra
+}
+```
+
 **res.forbidden (fields, extra)**
 - *object* **fields**
  - Object which contain validation error,  where key is field name and value is message
@@ -40,6 +55,7 @@ error: {
 	error_extra: null or extra
 }
 ```
+
 
 **res.notFound (name, extra)**
 - *string* **name**
