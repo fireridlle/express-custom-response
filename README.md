@@ -93,7 +93,7 @@ Then each script in this directory will be available as response method by filen
  * This will be available in controllers as res.accepted(message);
  */
 
-module.exports = function(redirectTo, extra){
+module.exports = function(message){
     //this is points to express.response
 	this.status(202);
 	this.send(message);
