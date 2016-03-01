@@ -1,9 +1,9 @@
 # express-custom-response
 
-Create custom response methods for express.js
+Create custom response methods for express.js.
 
 ## Getting Started
-Install the module with: `npm install express-custom-response`
+Install the module with: `npm install https://github.com/SteffenLanger/express-custom-response`.
 
 ##Quick Start
 ```javascript
@@ -14,13 +14,13 @@ require('express-custom-response')();
 ## Documentation
 The module contains pre-defined custom responses:
 
-**res.serverError (extraData)**
+**res.serverError (message, extraData)**
 - *mixed* **data**
 - Any data that have to be returned to the user
  
-> return response with http code 500 and body:```json
+return response with http code 500 and body:```json
 error: {
-    message: 'We're sorry, a server error occurred. Please wait a bit and try again',
+    message: 'The database failed to respond.',
 	extraData: null or extraData
 	}
 ```
@@ -31,7 +31,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-> return response with http code 400 and body:```json
+return response with http code 400 and body:```json
 error: {
     message: 'Validation failed',
 	fields: {email: 'Email has to be unique'},
@@ -45,11 +45,10 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-> return response with http code 405 and body:```json
+return response with http code 403 and body:```json
 error: {
-    message: 'Validation failed',
-	fields: {email: 'Email has to be uniq'},
-	error_extra: null or extra
+    message: 'The user does not have enough permissions to access this file.',
+	extraData: null or extraData
 }
 ```
 
@@ -60,7 +59,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-> return response with http code 404 and body:```json
+return response with http code 404 and body:```json
 error: {
     message: 'User not found',
 	code: 404,
@@ -72,7 +71,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-> return reponse with http code 200 and body:```json
+return response with http code 200 and body:```json
 {} or extraData
 ```
 
