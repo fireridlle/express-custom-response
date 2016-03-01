@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4e2de0-f3cf-4eff-b0dc-e09d0957ebea" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/default/badRequest.js" afterPath="$PROJECT_DIR$/lib/default/badRequest.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/default/forbidden.js" afterPath="$PROJECT_DIR$/lib/default/forbidden.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/default/notFound.js" afterPath="$PROJECT_DIR$/lib/default/notFound.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/default/ok.js" afterPath="$PROJECT_DIR$/lib/default/ok.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/default/serverError.js" afterPath="$PROJECT_DIR$/lib/default/serverError.js" />
     </list>
     <ignored path="express-custom-response.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -100,8 +94,8 @@
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7253142">
-                  <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.29802513">
+                  <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
                   <folding />
                 </state>
               </provider>
@@ -371,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7253142">
-          <caret line="95" column="1" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.29802513">
+          <caret line="73" column="57" selection-start-line="73" selection-start-column="57" selection-end-line="73" selection-end-column="57" />
           <folding />
         </state>
       </provider>

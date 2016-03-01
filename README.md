@@ -18,7 +18,7 @@ The module contains pre-defined custom responses:
 - *mixed* **data**
 - Any data that have to be returned to the user
  
-return response with http code 500 and body:```json
+return response with http code 500 and body:```javascript
 error: {
     message: 'The database failed to respond.',
 	extraData: null or extraData
@@ -31,7 +31,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-return response with http code 400 and body:```json
+return response with http code 400 and body:```javascript
 error: {
     message: 'Validation failed',
 	fields: {email: 'Email has to be unique'},
@@ -45,7 +45,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-return response with http code 403 and body:```json
+return response with http code 403 and body:```javascript
 error: {
     message: 'The user does not have enough permissions to access this file.',
 	extraData: null or extraData
@@ -59,7 +59,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-return response with http code 404 and body:```json
+return response with http code 404 and body:```javascript
 error: {
     message: 'User not found',
 	code: 404,
@@ -71,7 +71,7 @@ error: {
 - *mixed* **extraData**
 - Any data that have to be returned to the user
  
-return response with http code 200 and body:```json
+return response with http code 200 and body:```javascript
 {} or extraData
 ```
 
